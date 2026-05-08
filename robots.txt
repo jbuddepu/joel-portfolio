@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+Disallow: /assets/private/
+
+# Crawl delay
+Crawl-delay: 1
+
+# Sitemaps (if you add a sitemap)
+# Sitemap: https://yourdomain.com/sitemap.xml

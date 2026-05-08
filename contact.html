@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact — Joel Buddepu</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <nav class="nav" id="nav">
+    <a href="index.html" class="nav-logo">JB©</a>
+    <ul class="nav-links">
+      <li><a href="index.html" class="nav-link">Home</a></li>
+      <li><a href="work.html" class="nav-link">Work</a></li>
+      <li><a href="about.html" class="nav-link">About</a></li>
+      <li><a href="contact.html" class="nav-link active">Contact</a></li>
+    </ul>
+    <div class="nav-info">
+      <span>Based in Vizag, India</span>
+      <span class="nav-dot">·</span>
+      <span>CS &amp; Developer</span>
+    </div>
+    <button class="nav-hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span>
+    </button>
+  </nav>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="work.html">Work</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+
+  <div class="page-header">
+    <p class="page-header-eyebrow reveal">Say Hello</p>
+    <h1 class="page-header-title reveal-slow">Contact<em>.</em></h1>
+  </div>
+
+  <!-- CONTACT MAIN -->
+  <section class="contact-section">
+    <div class="contact-left reveal-up">
+      <h2 class="contact-big">Let's work<br>together.</h2>
+      <p class="contact-desc">
+        Looking for a developer who ships? I'm open to remote summer internships, freelance collaborations, and exciting engineering opportunities.
+      </p>
+      <div class="contact-links">
+        <a href="mailto:jbuddepu@gitam.in" class="contact-link-item">
+          <span class="cli-label">Email</span>
+          <span class="cli-value">jbuddepu@gitam.in ↗</span>
+        </a>
+        <a href="tel:+918056996954" class="contact-link-item">
+          <span class="cli-label">Phone</span>
+          <span class="cli-value">+91 8056996954 ↗</span>
+        </a>
+        <a href="https://linkedin.com" target="_blank" class="contact-link-item">
+          <span class="cli-label">LinkedIn</span>
+          <span class="cli-value">linkedin.com/in/joelbuddepu ↗</span>
+        </a>
+        <a href="https://github.com" target="_blank" class="contact-link-item">
+          <span class="cli-label">GitHub</span>
+          <span class="cli-value">github.com/joelbuddepu ↗</span>
+        </a>
+        <div class="contact-link-item">
+          <span class="cli-label">Location</span>
+          <span class="cli-value">Visakhapatnam, India · Remote OK</span>
+        </div>
+        <div class="contact-link-item">
+          <span class="cli-label">Availability</span>
+          <span class="cli-value available-badge">● Open — May 2026</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="contact-right reveal-up">
+      <form class="contact-form" id="contactForm">
+        <div class="form-group">
+          <label for="name">Your Name</label>
+          <input type="text" id="name" name="name" placeholder="Jane Smith" required />
+        </div>
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" placeholder="jane@company.com" required />
+        </div>
+        <div class="form-group">
+          <label for="subject">Subject</label>
+          <select id="subject" name="subject">
+            <option value="">Select a topic…</option>
+            <option value="internship">Internship Opportunity</option>
+            <option value="freelance">Freelance Project</option>
+            <option value="collab">Collaboration</option>
+            <option value="other">Something Else</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="Tell me about the opportunity or project…" required></textarea>
+        </div>
+        <button type="submit" class="form-submit">Send Message ↗</button>
+        <p class="form-note">* This form is for demo. Connect a backend or use Formspree to activate.</p>
+      </form>
+    </div>
+  </section>
+
+  <div class="contact-marquee">
+    <div class="marquee-track">
+      <span>Available for Remote Internships · Summer 2026 · Python · Full-Stack · Visakhapatnam · Open to Work · </span>
+      <span>Available for Remote Internships · Summer 2026 · Python · Full-Stack · Visakhapatnam · Open to Work · </span>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="footer-left">
+      <span class="footer-logo">JB©</span>
+      <span class="footer-copy">2026 Joel Buddepu</span>
+    </div>
+    <div class="footer-right">
+      <a href="mailto:jbuddepu@gitam.in">jbuddepu@gitam.in</a>
+      <a href="https://linkedin.com" target="_blank">LinkedIn ↗</a>
+      <a href="https://github.com" target="_blank">GitHub ↗</a>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
